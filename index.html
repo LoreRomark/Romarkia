@@ -10,11 +10,11 @@
     
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="icon" href="svg/bird.ico" type="image/x-icon">
-
+    
+    <!-- Swiper style link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+    
+    <link rel="icon" href="svg/bird.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -22,14 +22,14 @@
      <header class="header">
 
         <a href="#" class="logo">
-            <img src="svg/logo.png" alt="logo" srcset="">
+            <img src="svg/logo-white.png" alt="logo" srcset="">
         </a>
         
         <nav class="navbar">
 
             <div>
                 <a href="#" class="logo">
-                    <img src="svg/logo.png" alt="logo" srcset="">
+                    <img src="svg/logo-black.png" alt="logo" srcset="">
                 </a>
                 <i class="fas fa-x" id="close-btn"></i>
             </div>
@@ -52,8 +52,11 @@
                 </li>
             </ul>
         </nav>
-        
-        <i class="fas fa-bars" id="menu-btn"></i>
+
+        <div class="icons">
+            <i class="fa-brands fa-opencart" id="cart-btn"></i>
+            <i class="fas fa-bars" id="menu-btn"></i>
+        </div>
            
     </header>
     <!-- Header section ends  -->
@@ -63,8 +66,8 @@
      <section class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/img2.jpg" alt="imagen 1" class="img">
-                <h1>lorena</h1>
+                <img src="images/img4.jpg" alt="imagen 1" class="img">
+                <p>join life</p>
             </div>
             <div class="swiper-slide">
                 <img src="images/img6.jpg" alt="imagen 1" class="img">
@@ -76,6 +79,14 @@
         <div class="swiper-pagination"></div>
      </section>
      <!-- Swiper section ends  -->
+
+
+    <!-- Search Form section starts  -->
+     <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search">
+        <!-- <label for="search-box" class="fas fa-search"></label> -->
+    </div>
+    <!-- Search section starts  -->
 
 
     <script type="module" src="js/script.js"></script>
