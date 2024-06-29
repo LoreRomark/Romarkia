@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,25 @@
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- Swiper style link  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="icon" href="svg/bird.ico" type="image/x-icon">
 </head>
+
 <body>
 
     <!-- Header section starts  -->
-     <header class="header">
+    <header class="header">
 
         <a href="#" class="logo">
             <img src="svg/logo-white.png" alt="logo" srcset="">
         </a>
-        
+
         <nav class="navbar">
 
             <div>
@@ -33,22 +35,22 @@
                 </a>
                 <i class="fas fa-x" id="close-btn"></i>
             </div>
-            
+
             <ul class="list">
                 <li class="list-item">
                     <a href="#">home</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">category</a>
+                    <a href="#">women</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">home</a>
+                    <a href="#">man</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">category</a>
+                    <a href="#">children</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">home</a>
+                    <a href="#">join life</a>
                 </li>
             </ul>
         </nav>
@@ -57,32 +59,48 @@
             <i class="fa-brands fa-opencart" id="cart-btn"></i>
             <i class="fas fa-bars" id="menu-btn"></i>
         </div>
-           
+
     </header>
     <!-- Header section ends  -->
 
-
     <!-- Swiper section starts  -->
-     <section class="swiper">
+    <section class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/img4.jpg" alt="imagen 1" class="img">
-                <p>join life</p>
+                <a href="#">
+                    <video autoplay muted loop>
+                        <source src="videos/arena.mp4" type="video/mp4">
+                        <img src="images/img3.jpg" alt="" srcset="">
+                    </video>
+                    <p>summer</p>
+                </a>
             </div>
             <div class="swiper-slide">
-                <img src="images/img6.jpg" alt="imagen 1" class="img">
+                <a href="#">
+                    <img src="images/img4.jpg" alt="imagen 1" class="img">
+                    <p>join life</p>
+                </a>
             </div>
             <div class="swiper-slide">
-                <img src="images/img5.jpg" alt="imagen 1" class="img">
+                <a href="#">
+                    <img src="images/img6.jpg" alt="imagen 1" class="img">
+                    <p>new arrive</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/img5.jpg" alt="imagen 1" class="img">
+                    <p>sales</p>
+                </a>
             </div>
         </div>
         <div class="swiper-pagination"></div>
-     </section>
-     <!-- Swiper section ends  -->
+    </section>
+    <!-- Swiper section ends  -->
 
 
     <!-- Search Form section starts  -->
-     <div class="search-form">
+    <div class="search-form">
         <input type="search" id="search-box" placeholder="Search">
         <!-- <label for="search-box" class="fas fa-search"></label> -->
     </div>
@@ -91,4 +109,5 @@
 
     <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
